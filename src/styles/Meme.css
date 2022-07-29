@@ -1,0 +1,29 @@
+main{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.form{
+    display: grid;
+    grid-template: 50px 50px / 1fr 1fr;
+    gap: 50px;
+}
+.form-input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.form-button{
+    grid-column: 1/-1 ;
+    font-size: 16px;
+    border-radius: 10px;
+    color: aqua;
+    background-color: rgba(9,9,121,1);
+}
+
+.meme-image{
+    margin-top: 20px;
+    width:100%;
+}
