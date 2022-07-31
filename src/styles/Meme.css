@@ -1,29 +1,60 @@
-main{
+main {
     width: 40%;
     margin: 0 auto;
     margin-top: 1em;
 }
 
-.form{
+.form {
     display: grid;
     grid-template: 50px 50px / 1fr 1fr;
     gap: 50px;
 }
-.form-input{
+
+.form-input {
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
 }
 
-.form-button{
-    grid-column: 1/-1 ;
+.form-button {
+    grid-column: 1/-1;
     font-size: 16px;
     border-radius: 10px;
     color: aqua;
-    background-color: rgba(9,9,121,1);
+    background-color: rgba(9, 9, 121, 1);
 }
 
-.meme-image{
+.meme {
+    position: relative;
+}
+
+.meme-image {
     margin-top: 20px;
-    width:100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top-text {
+    font-size: 50px;
+    color: white;
+    z-index: 100;
+    position: absolute;
+    font-weight: bold;
+    top: 50px;
+    left: 20%;
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+}
+
+.bottom-text {
+    font-size: 50px;
+    color: white;
+    text-shadow: black;
+    z-index: 100;
+    position: absolute;
+    font-weight: bold;
+    top: 350px;
+    left: 20%;
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
 }
