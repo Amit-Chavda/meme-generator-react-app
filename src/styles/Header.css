@@ -7,6 +7,31 @@
     align-items: center;
     padding: 5px;
 }
+.header-dark{
+    height: 50px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.header-dark img {
+    margin: auto 5px auto 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.header-dark h2 {
+    color: white;
+}
+
+.header-dark h3 {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
 
 .header img {
     margin: auto 5px auto 20px;
@@ -20,5 +45,19 @@
 
 .header h3 {
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 10px;
+}
+
+.checkbox{
+    margin-left: auto;
+  background-color: #fff;
+  margin: 0;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 0.5em;
+  margin-right: 1px;
+}
+
+.toggle{
+    margin-right: 50px;
 }
